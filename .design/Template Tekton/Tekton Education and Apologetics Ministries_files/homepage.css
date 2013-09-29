@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* set default spacing for all containers */
+
+.hpBox {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	text-align: left;
+}
+.hpBox div {
+	padding: 6px;
+}
+.hpBox	{
+	width:28%;
+	float:left;
+	margin-left:1%;
+}
+.hpBox ul, {
+	margin-left: 24px;
+}
+
+.hpSectionHeader {
+	font-weight:bold;	
+}
+
+.hpSections a {
+	color:#fff;	
+}
+.hpSections_Youtube a {
+	color:#fff;	
+}
+
+#slider1, #announcements, #wanted, #dogs {
+	padding:0px !important;	
+}
+
+#wanted p {
+	margin:0px 0px 5px 0px;
+}
+
+#wanted .hpSectionHeader {
+	font-weight:normal;	
+}
+
+#dogs .dcCSSlearnLink {
+	display:none;
+}
+
+ul { /* reset bullets bug fix */
+    padding-left:1em;
+    margin-left:0;
+}
+li	{
+	margin-bottom: 8px;	
+}
+
+h1 {
+	margin-top: 3px;
+	padding-top:0px;
+	font-size: 1.2em;
+	text-align: left;
+}
+h2	{
+	font-size:1.0em;	
+}
+h2.dcCSSAlternate	{
+	min-height:25px;
+}
+h3	{
+	font-size:.95em;	
+}
+#dcCSSwrapper #dcCSSwrapper2 .dcCSScontentALTside2	{
+	width:320px; 
+	border:none; 
+	background-color:#545454;
+}
+.dcCSScontentALTmain h2	{
+	padding-top:0px;	
+	margin-right:0px;
+	padding-right:5px;
+}
+.dcCSScontentALTmain 	{
+	height:auto; 
+	margin-right:345px; 
+	margin-bottom:0px; 
+	padding-top:1px; 
+	padding-bottom:1px;	
+}
+.dcCSScontentALTmain .links	{
+	margin-right:345px; 
+	margin-bottom:0px; 
+	padding-top:1px; 
+	padding-bottom:1px;
+}
+.links	{
+	min-width:300px;	
+	background-image:url(images/badges-watermark.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+.dcCSSdisplayNone	{
+	display:none;	
+}
+.dcCSScontentALTmain ul{
+	margin-left:20px;	
+}
+
+
+
+/* individual sections */
+
+.announcement, .mission, .probation, .prison, .new, .learn {
+	text-align: left;
+	padding:0 10px 10px 10px;
+}
+.probation{
+	width:23%;
+	float:left;
+	margin-left:10px;
+	height:100%;
+}
+.prison{
+	width:23%;
+	float:left;
+	margin-left:5px;
+	height:100%;
+}
+.learn{
+	width:24%;
+	float:left;
+	margin-left:5px;
+	height:100%;
+}
+
+
+.dcCSScontentALTmain .probation ul {
+	margin-left: 0px;
+}
+.dcCSScontentALTmain .prison ul {
+	margin-left: 0px;
+}
+.dcCSScontentALTmain .learn ul {
+	margin-left: 0px;
+}
+.prison li, .probation li, .learn li, .new li {
+	font-size:.85em;
+}
+.prison h2, .probation h2, .learn h2, {
+	margin-left: 0px;
+	padding-top:20px;
+	padding-left:0px;
+}
+.troops	{
+	float:none; 
+	min-height:98px;
+}
+
+h2.noMarginLeft	{
+	margin-left:0px;
+}
+
+.photos img {
+	margin: 3px;
+}
+dcCSScontentALTside2 img {
+	margin-bottom:10px;
+}
+.sidebar	{
+	background-color:#fff; 
+	border:1px solid black;
+	*margin-top:-10px;	
+	margin-top:0;
+	padding-top:-10px;
+	margin-bottom:20px;
+}
+.bx-window {
+	height:135px;	
+}
+
+/* ----- This is for Chrome so that the boxes don't float beside each other----- */
+.sidebar1	{
+	background-color:#545454;
+	border:1px solid black;
+	margin-top:-10px;	
+	padding-top:-10px;
+	margin-bottom:20px;
+}
+.extra img {	padding: 5px;
+}
+.rss	{
+	width:47px; 
+	background-color:#fff; 
+	float:right; padding-right:0;	
+}
+
+.photoicon {
+	position: relative;
+	}
+
+.adopt {
+	border-bottom: 1px solid #889aa6;
+	}
+.dcCSStopAlign	{
+	vertical-align:top;
+}
+.ann-pad-left	{
+	padding-left:15px;	
+}
+.ann-marg-right	{
+	margin-right:5px;	
+}
+p.ann-marg-left	{
+	margin-left:0px;	
+}
+.ann-marg-top	{
+	margin:0;	
+	padding:0;	
+}
+.ann-pad-left .ann-dcCSSalternate1	{
+	margin-top:0px;
+	padding-top:0px;	
+}
+.ann-border-bottom	{
+	border-bottom:#669966 1px solid;	
+}
+
+.ann-pad-left h2.ann-dcCSSalternate2	{
+	_padding-top:5px; 
+	margin-left:0;	
+	display:inline;
+}
