@@ -1,4 +1,10 @@
-<?php include 'header.inc.php'; ?> 
+<?php 
+
+// Configure this page's title. Optional. 
+$title = 'The Letter E';
+include 'header.inc.php'; 
+
+?> 
 <div class="main-content inner-page">
 
 <!-- invalid html -->

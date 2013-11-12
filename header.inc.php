@@ -1,3 +1,10 @@
+<?php
+
+if (!isset($title) || empty($title)) {
+	$title = 'Tektonics.org Bible apologetics and education';
+}
+
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
@@ -7,7 +14,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width">
-	<title>Tektonics.org Bible apologetics and education</title>
+	<title><?php echo $title ?></title>
 	<meta name="author" content="James Patrick Holding">
 	<meta name="generator" content="Matthias Dailey | zeroriginal.com">
 	<meta name="description" content="Answering Bible contradictions, misunderstandings, and misinterpretations">
