@@ -20,7 +20,7 @@ $jumpmenus.each(function(i, sel){
 	sel.selectedIndex = 0;
 });
 $jumpmenus.change(function(e){
-	var val = e.target.selectedOptions[0].getAttribute('value');
+	var val = e.target.options[e.target.selectedIndex].getAttribute('value');
 	if (!val) return;
 	location = val;
 });
