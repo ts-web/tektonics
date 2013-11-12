@@ -24,3 +24,10 @@ $jumpmenus.change(function(e){
 	if (!val) return;
 	location = val;
 });
+
+
+// Change 'to top' links
+$('a[href="#top"]').click(function(e){
+	window.scrollTo(0,0);
+	e.preventDefault();
+});
