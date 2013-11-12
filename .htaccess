@@ -1,0 +1,2 @@
+RewriteEngine on
+RedirectMatch permanent ^(.*)\.html$ $1.php
